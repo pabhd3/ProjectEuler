@@ -12,7 +12,7 @@ Find the sum of all the multiples of 3 or 5 below *n*.
 
 #### **JavaScript**
 
-* Open [multiplesOf3or5.html](./multiplesOf3or5.html) in your browser.
+* Open `multiplesOf3or5.html` in your browser.
 * Enter an integer, *n*, in the textbox and click **submit**.
 
 #### **Python3**

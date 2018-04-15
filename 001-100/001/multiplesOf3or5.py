@@ -1,3 +1,4 @@
+# Used to make calculation
 def multiplesOf3or5(n):
     sum = 0
     for i in range(0, int(n)):

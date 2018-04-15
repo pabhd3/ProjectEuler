@@ -1,3 +1,4 @@
+# Generate the Fibonacci list, stopping at given value
 def maxFibonacciValue(n):
     fib = [1, 2]
     for i in range(2, int(n)):
@@ -7,6 +8,7 @@ def maxFibonacciValue(n):
             fib.append(fib[i-1] + fib[i-2])
     return fib
 
+# Calculate even-valued sum
 def evenFibonacciNumbers(n):
     sum = 0
     for value in maxFibonacciValue(n):
@@ -15,6 +17,6 @@ def evenFibonacciNumbers(n):
     return sum
 
 if __name__ == "__main__":
-    n = input("Enter an max fibonacci value n: ")
+    n = input("Enter a max fibonacci value n: ")
     print("Sum of even-valued fibonacci terms below {:,}".format(int(n)))
     print("{:,}".format(evenFibonacciNumbers(n)))
