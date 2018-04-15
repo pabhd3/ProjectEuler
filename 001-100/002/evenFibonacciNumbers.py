@@ -18,5 +18,5 @@ def evenFibonacciNumbers(n):
 
 if __name__ == "__main__":
     n = input("Enter a max fibonacci value n: ")
-    print("Sum of even-valued fibonacci terms below {:,}".format(int(n)))
+    print("\nSum of even-valued fibonacci terms below {:,}".format(int(n)))
     print("{:,}".format(evenFibonacciNumbers(n)))
