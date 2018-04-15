@@ -18,4 +18,4 @@ The motivation for starting Project Euler, and its continuation, is to provide a
 
 | Complete | Available | % |
 |:-----:|:-----:|:-----:|
-| 1 | 614 | 0.16% |
+| 2 | 614 | 0.33% |
