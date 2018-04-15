@@ -10,6 +10,12 @@ Find the sum of all the multiples of 3 or 5 below *n*.
 
 ## How to Use
 
+#### **C++**
+
+* Run `g++ multiplesOf3or5.cpp` to compile.
+* Run `a.out` from the command line.
+* Enter an integer, *n*, and hit enter.
+
 #### **JavaScript**
 
 * Open `multiplesOf3or5.html` in your browser.
