@@ -7,7 +7,10 @@ Project Euler is a series of challenging mathematical/computer programming probl
 
 The motivation for starting Project Euler, and its continuation, is to provide a platform for the inquiring mind to delve into unfamiliar areas and learn new concepts in a fun and recreational context.
 
-**Note: I will be changing these problems to include use input**
+**Languages Used:**
+* JavaScript, Python3
+
+**Note: I will be changing these problems to include user input (where applicable)**
 
 ---
 
@@ -16,11 +19,3 @@ The motivation for starting Project Euler, and its continuation, is to provide a
 | Complete | Available | % |
 |:-----:|:-----:|:-----:|
 | 1 | 614 | 0.16% |
-
----
-
-## Problems
-
-| Problem | Name | Languages |
-|:-----:|:-----:|:-----:|
-| [001](./001/) | [Multiples of 3 and 5](./001/) | Python3 |

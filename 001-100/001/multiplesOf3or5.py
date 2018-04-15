@@ -7,5 +7,5 @@ def multiplesOf3or5(n):
 
 if __name__ == "__main__":
     n = input("Enter an integer n: ")
-    print("\nSum of multiples of 3 & 5 below {:,}".format(int(n)))
+    print("\nSum of multiples of 3 or 5 below {:,}".format(int(n)))
     print("{:,}".format(multiplesOf3or5(n)))
