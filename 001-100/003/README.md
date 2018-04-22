@@ -10,7 +10,17 @@ What is the largest prime factor of the number *n*?
 
 ## How to Use
 
+#### **JavaScript**
+
+* Open `largestPrimeFactor.html` in your browser.
+* Enter an integer, *n*, in the textbox and click **submit**.
+
+#### **PHP**
+
+* Run `php largestPrimeFactor.php` from the command line.
+* Enter an integer, *n*, and hit enter.
+
 #### **Python3**
 
-* Run `python largestPrimeFactor.py` from the command line.
+* Run `python3 largestPrimeFactor.py` from the command line.
 * Enter an integer, *n*, and hit enter.

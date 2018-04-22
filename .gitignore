@@ -1,2 +1,5 @@
+# C .exe files
+*.exe
+
 # C++ .out files
 *.out

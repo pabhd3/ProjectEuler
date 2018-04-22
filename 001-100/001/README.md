@@ -10,6 +10,12 @@ Find the sum of all the multiples of 3 or 5 below *n*.
 
 ## How to Use
 
+#### **C**
+
+* Run `gcc multiplesOf3or5.c` to compile.
+* Run `./a.exe` from the command line.
+* Enter an integer, *n*, and hit enter.
+
 #### **C++**
 
 * Run `g++ multiplesOf3or5.cpp` to compile.
@@ -20,6 +26,11 @@ Find the sum of all the multiples of 3 or 5 below *n*.
 
 * Open `multiplesOf3or5.html` in your browser.
 * Enter an integer, *n*, in the textbox and click **submit**.
+
+#### **PHP**
+
+* Run `php multiplesOf3or5.php` from the command line.
+* Enter and integer, *n*, and hit enter.
 
 #### **Python3**
 

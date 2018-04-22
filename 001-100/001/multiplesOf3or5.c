@@ -1,5 +1,4 @@
-# include <iostream>
-using namespace std;
+#include <stdio.h>
 
 // Function to make calculation
 int multiplesOf3or5(int n){
@@ -13,11 +12,10 @@ int multiplesOf3or5(int n){
 int main(){
   // Get user input
   int n;
-  cout << "Enter an integer n: ";
-  cin >> n;
+  printf("Enter an integer n: ");
+  scanf("%d", &n);
   int multiplesSum = multiplesOf3or5(n);
   // Print result
-  cout << endl << "Sum of multiples of 3 or 5 below " << n << endl;
-  cout << multiplesSum << endl;
+  printf("\nSum of multiples of 3 or 5 below %d\n%d", n, multiplesSum);
   return 0;
 }

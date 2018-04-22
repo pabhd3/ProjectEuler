@@ -6,17 +6,17 @@ def isPrime(n):
         if(int(n) % i == 0):
             return False
     return True
-# Find the largest prime number below n
-def largestPrime(n):
-    largestPrime = 1
+# Get the summation of primes
+def summationOfPrimes(n):
+    sum = 0
     for i in range(1, int(n)):
-        if(isPrime(i) and i > largestPrime and n % i == 0):
-            largestPrime = i
-    return largestPrime
+        if(isPrime(i)):
+            sum += i
+    return sum
 
 if __name__ == "__main__":
     # Get user input
     n = input("Enter an integer n: ")
     # Print results
-    print("\nLargest Prime below {:,}".format(int(n)))
-    print("{:,}".format(largestPrime(n)))
+    print("Summation of primes below " + "{:,}".format(int(n)))
+    print("{:,}".format(summationOfPrimes(n)))

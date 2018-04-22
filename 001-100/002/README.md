@@ -12,12 +12,23 @@ Find the sum of the even-valued terms below *n*.
 
 ## How to Use
 
+#### **C++**
+
+* Run `g++ evenFibonacciNumbers.cpp` to compile.
+* Run `a.out` from the command line.
+* Enter a max fibonacci value, *n*, and hit enter.
+
 #### **JavaScript**
 
 * Open `evenFibonacciNumbers.html` in your browser.
 * Enter a max fibonacci value, *n*, in the textbox and click **submit**.
 
+#### **PHP**
+
+* Run `php evenFibonacciNumbers.php` from the command line.
+* Enter a max fibonacci value, *n*, and hit enter.
+
 #### **Python3**
 
-* Run `python evenFibonacciNumbers.py` from the command line.
+* Run `python3 evenFibonacciNumbers.py` from the command line.
 * Enter a max fibonacci value, *n*, and hit enter.
